@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <Say language="es-US" voice="Polly.Miguel">Hola, mundo</Say>
+    <Play>http://kera-ice.streamguys.us/keralive</Play>
 </Response>
