@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:title" content="The Nicest Place on the Internet" />
+
+    <title>The Nicest Place on the Internet</title>
+
+    <p>Bringing back the old nicest place on the internet site defunct since 2017...</p>
+
+    <style type="text/css" media="screen">
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="player_wrapper">
+        <div id="player"></div>
+    </div>
+
+    <div id="controls">
+        <button id="rewind" title="rewind">rewind</button>
+        <button id="play_pause" title="play/pause">play/pause</button>
+        <button id="forward" title="forward">forward</button>
+        <button id="mute_unmute" title="mute/unmute">mute/unmute</button>
+        <button id="shuffle" title="shuffle">shuffle</button>
+    </div>
+
+    <div id="music">
+        <audio id="audioplayer" autoplay="autoplay" loop="loop">
+            <source src="NicestPlace/musics/background.mp3" type="audio/mpeg" />
+            <source src="NicestPlace/musics/background.ogg" type="audio/ogg" />
+            <embed type="application/x-shockwave-flash"
+                flashvars="audioUrl=http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27"
+                quality="best" wmode="transparent"></embed>
+        </audio>
+    </div>
+
+</body>
+
+<script src="NicestPlace/javascripts/evbmaster-min.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '480',
+            width: '640',
+            videoId: 'iTl9m8DO0JA',
+            playerVars: {
+                list: 'TheNicestPlace',
+                listType: 'user_uploads',
+                autoplay: 1,
+                controls: 0,
+                showinfo: 0,
+                rel: 0,
+                modestbranding: 0,
+                wmode: 'opaque'
+            },
+            events: {
+                'onReady': theNicestPlace.homePage.onPlayerReady,
+                'onStateChange': theNicestPlace.homePage.onPlayerStateChange
+            }
+        });
+    }
+
+
+</script>
+
+<script type="text/javascript">
+    theNicestPlace.main.queue(theNicestPlace.homePage.init);	</script>
+
+</html>
