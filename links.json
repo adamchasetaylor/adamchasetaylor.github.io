@@ -25,6 +25,10 @@
         "url": "https://www.theodinproject.com/tracks"
       },
       {
+        "name": "Pluralsight",
+        "url": "https://app.pluralsight.com/id"
+      },
+      {
         "name": "Twilio Quest",
         "url": "https://www.twilio.com/quest"
       }
