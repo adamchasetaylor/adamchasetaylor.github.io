@@ -1,0 +1,89 @@
+{
+    "learning": [
+      {
+        "name": "Coursera",
+        "url": "http://www.coursera.org"
+      },
+      { 
+        "name": "EdX",
+        "url": "http://www.edx.org"
+      },
+      {
+        "name": "freeCodeCamp", 
+        "url": "https://www.freecodecamp.org/"
+      },
+      {
+        "name": "GitHub Learning Lab",
+        "url": "https://lab.github.com/"
+      },
+      {
+        "name": "LinkedIn Learning",
+        "url": "https://www.linkedin.com/learning-login/go/kcls"
+      },
+      {
+        "name": "O'Reily Library",
+        "url": "https://learning.oreilly.com/member/login/"
+      },
+      {
+        "name": "The Odin Project",
+        "url": "https://www.theodinproject.com/tracks"
+      },
+      {
+        "name": "Twilio Quest",
+        "url": "https://www.twilio.com/quest"
+      }
+    ],
+  
+    "podcasts": [
+      {
+        "name": "Economist - The Intelligence",
+        "url": "https://theintelligence.economist.com/"
+      },
+      {
+        "name": "NYT - The Daily",
+        "url": "https://www.nytimes.com/column/the-daily"
+      },
+      {
+        "name": "WaPo - Post Reports",
+        "url": "https://www.washingtonpost.com/podcasts/post-reports/?noredirect=on"
+      },
+      {
+        "name": "WaPo - The 7",
+        "url": "https://www.washingtonpost.com/newsletters/the-7/"
+      }
+    ],
+  
+    "discounts": [
+      {
+        "name": "AETNA LifeMart",
+        "url": "https://wl.lifecare.com/group/lifemart/home#x3d;1&amp;corp_or_ccode&#x3d;NAVIGATOR"
+      },
+      {
+        "name": "Allstate Motor Club",
+        "url": "https://allstatemotorclubtm.enjoymydeals.com/home"
+      },
+      {
+        "name": "Budget Fastbreak Passport",
+        "url": "https://fastbreak.passportcorporate.com/Account/Login?vendor=8117"
+      },
+      {
+        "name": "Love my Credit Union",
+        "url": "https://rewards.lovemycreditunion.org/"
+      },
+          {
+        "name": "Perks at Work",
+        "url": "https://www.perksatwork.com/login" 
+      }
+    ],
+  
+    "projects": [
+      {
+        "name": "Prajalpa.com",
+        "url": "https://www.prajalpa.com"
+      },
+      {
+        "name": "Top Power Plans",
+        "url": "https://txpower-4132-dev.twil.io/power.html"
+      }
+    ]
+  }
